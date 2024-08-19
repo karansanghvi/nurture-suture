@@ -1,0 +1,380 @@
+/* STYLES */
+
+:root {
+    /* colors */
+    --background: hsla(186, 72%, 24%, 1); 
+    --isoText: hsla(0, 98%, 69%, 1);
+    --cardButton: hsla(214, 100%, 94%, 1);
+    --button: hsla(182, 100%, 35%, 1);
+    --footerBackground: hsla(186, 80%, 32%, 1);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-text {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .navbar-text {
+        font-size: 22px;
+    }
+}
+
+/* HERO */
+.hero {
+    background-color: var(--background);
+    background-image: url('../images/hero-bg\ 1.png');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.hero .hero-box {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero .hero-text {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.hero .hero-slogan {
+    color: white;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.hero .hero-ISO {
+    color: var(--isoText);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .hero .hero-box {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero .hero-text {
+        font-size: 40px; 
+        text-align: center; 
+    }
+
+    .hero .hero-slogan {
+        font-size: 24px; 
+        text-align: center; 
+    }
+
+    .hero .hero-ISO {
+        font-size: 24px; 
+        text-align: center; 
+    }
+}
+
+
+/* SERVICES */
+.services-home .services-pretext {
+    color: var(--background);
+    font-size: 32px;
+}
+
+.services-home .services-text {
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.services-home .services-home-card {
+    background-color: var(--cardButton);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.services-home .button {
+    background-color: var(--button); 
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 200px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .services-home .services-pretext {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .services-home .services-text {
+        font-size: 40px; 
+        text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+
+    .services-home .services-home-card {
+        padding: 30px; 
+        border-radius: 15px;
+        box-shadow: 4px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .services-home .button {
+        padding: 8px 16px; 
+        font-size: 18px; 
+        width: 180px; 
+        border-radius: 15px; 
+    }
+}
+
+/* WHY CHOOSE US? */
+.about-home {
+    background-color: var(--cardButton);
+}
+
+.about-home .about-home-pretext {
+    color: var(--background);
+    font-size: 32px;
+}
+
+.about-home .about-home-text {
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.about-home .about-home-description {
+    font-size: 24px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+@media(max-width: 768px) {
+    .about-home .about-home-pretext {
+        padding-top: 5px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-home .about-home-text {
+        font-size: 28px;
+        text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+
+    .about-home .about-home-description {
+        font-size: 18px;
+        text-align: left;
+    }
+}
+
+/* OUR DOCTORS */
+.doctor-home .doctor-home-pretext {
+    color: var(--background);
+    font-size: 32px;
+    text-align: center;
+}
+
+.doctor-home .doctor-home-text {
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.doctor-home .doctor-home-image {
+    width: 493px;
+    height: 513px;
+}
+
+.doctor-home .doctor-home-name {
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.doctor-home .doctor-home-title {
+    color: var(--background);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.doctor-home .button {
+    background-color: var(--button); 
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 200px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+@media(max-width: 768px) {
+    .doctor-home .doctor-home-pretext {
+        padding-top: 5px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .doctor-home .doctor-home-text {
+        font-size: 38px;
+        text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+
+    .doctor-home .doctor-home-image {
+        height: 413px;
+    }
+
+    .doctor-home .doctor-home-name {
+        font-size: 33px;
+    }
+}
+
+/* CONTACT HOME */
+.contact-home .contact-home-pretext {
+    color: var(--background);
+    font-size: 32px;
+    text-align: center;
+}
+
+.contact-home .contact-home-text {
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact-home .contact-home-card {
+    background-color: var(--cardButton);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.contact-home .contact-home-card .contact-home-title {
+    font-size: 32px;
+}
+
+
+.contact-home .contact-home-card .contact-home-description {
+    font-size: 22px;
+    color: var(--background);
+    font-weight: 400;
+}
+
+@media(max-width: 768px) {
+    .contact-home .contact-home-pretext {
+        padding-top: 5px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-home .contact-home-text {
+        font-size: 38px;
+        text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+
+    .contact-home .contact-home-card .contact-home-title {
+        font-size: 24px;
+    }
+
+    .contact-home .contact-home-card .contact-home-description {
+        font-size: 18px;
+    }
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--footerBackground);
+    background-image: url("../images/footer-bg.png");
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.footer-box {
+    background-color: var(--button);
+    padding: 30px;                 
+    border-radius: 20px;
+    max-width: 1125px;             
+    width: 100%;                   
+    margin: 0 auto;                        
+}
+
+.footer .footer-text {
+    font-size: 48px;
+    color: white;
+}
+
+.footer .footer-title {
+    font-size: 24px;
+    color: white;
+}
+
+.footer .footer-box .footer-contact {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .footer-box .footer-contact .footer-logo {
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.footer .footer-box .footer-contact .footer-description {
+    font-size: 22px;
+    color: white;
+}
+
+.footer .footer-bigText {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer .footer-smallText {
+    color: white;
+    font-size: 20px;
+}
+
+
+.footer .footer-base {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer .footer-text {
+        font-size: 32px;
+    }
+
+    .footer .footer-title {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .footer .footer-box .footer-contact {
+        display: block;
+        padding-top: 5px;
+    }
+
+    .footer .footer-box .footer-contact .footer-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer .footer-box .footer-contact .footer-description {
+        font-size: 14px;
+    }
+}
