@@ -56,7 +56,6 @@ body {
     font-weight: 700;
 }
 
-/* Mobile View */
 @media (max-width: 768px) {
     .hero .hero-box {
         padding-top: 40px;
@@ -80,7 +79,7 @@ body {
 }
 
 
-/* SERVICES */
+/* SERVICES - HOME */
 .services-home .services-pretext {
     color: var(--background);
     font-size: 32px;
@@ -134,7 +133,7 @@ body {
     }
 }
 
-/* WHY CHOOSE US? */
+/* WHY CHOOSE US? - HOME */
 .about-home {
     background-color: var(--cardButton);
 }
@@ -175,7 +174,7 @@ body {
     }
 }
 
-/* OUR DOCTORS */
+/* OUR DOCTORS - HOME */
 .doctor-home .doctor-home-pretext {
     color: var(--background);
     font-size: 32px;
@@ -238,7 +237,7 @@ body {
     }
 }
 
-/* CONTACT HOME */
+/* CONTACT - HOME */
 .contact-home .contact-home-pretext {
     color: var(--background);
     font-size: 32px;
@@ -288,6 +287,122 @@ body {
 
     .contact-home .contact-home-card .contact-home-description {
         font-size: 18px;
+    }
+}
+
+/* ABOUT US PAGE */
+
+.about-us {
+    background-color: var(--background);
+    background-image: url("../images/footer-bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us .about-us-text {
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-us-description {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.meet-our-doctor {
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.doctor-name {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.doctor-title {
+    color: var(--background);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.doctor-description {
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.logo-box {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-box .doctor-symbol {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-box a {
+    color: var(--background);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.specialist-text {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.specialist-card {
+    background-color: var(--cardButton);
+    width: 378px;
+    height: 95px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.specialist-card .specialist-card-text {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.center-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 768px) {
+    .meet-our-doctor {
+        font-size: 38px;
+        text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+
+    .doctor-name {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .doctor-title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .specialist-card {
+        width: 278px;
+        height: 100px;
+    }
+
+    .specialist-card .specialist-card-text {
+        font-size: 16px;
     }
 }
 

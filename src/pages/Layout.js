@@ -3,6 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import '../App.css';
 import '../assets/styles/style.css';
 import logo from '../assets/images/ns_logo.png';
+import Footer from './Footer';
 
 function Layout() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -83,6 +84,7 @@ function Layout() {
         </div>
       </nav>
       <Outlet />
+      <Footer/>
     </>
   );
 }

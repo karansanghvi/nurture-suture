@@ -7,7 +7,6 @@ import dr_jagruti from '../assets/images/dr-jagruti-removebg-preview 1.png';
 import call from '../assets/images/Group 188.png';
 import location from '../assets/images/Group 178.png';
 import time from '../assets/images/Group 177.png';
-import Footer from './Footer';
 
 function Home() {
   return (
@@ -112,8 +111,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <Footer/>
     </div>
   );
 }
