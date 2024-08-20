@@ -85,10 +85,10 @@ body {
     font-size: 32px;
 }
 
-.services-home .services-text {
-    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+.services-home .service-text {
     font-size: 75px;
     font-weight: 700;
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .services-home .services-home-card {
@@ -131,7 +131,7 @@ body {
         width: 180px; 
         border-radius: 15px; 
     }
-}
+} 
 
 /* WHY CHOOSE US? - HOME */
 .about-home {
@@ -255,6 +255,7 @@ body {
     background-color: var(--cardButton);
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .contact-home .contact-home-card .contact-home-title {
@@ -406,9 +407,169 @@ body {
     }
 }
 
+/* SERVICES PAGE */
+.services {
+    background-color: var(--background);
+    background-image: url("../images/footer-bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services-text {
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.category-box {
+    border-radius: 20px;
+    background-color: var(--cardButton);
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+}
+
+.category-button.selected {
+    background-color: hsla(182, 100%, 35%, 1);
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.category-button {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.service-card {
+    padding: 60px;
+    background-color: var(--cardButton);
+    border-radius: 20px;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.service-card .service-card-text {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.service-card .service-card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card .service-card-button button {
+    background-color: var(--button);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .services-text {
+        font-size: 48px;
+    }
+
+    .category-box {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .category-button {
+        padding: 10px 30px;
+        font-size: 22px; 
+    }
+
+    .grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .service-card {
+        padding: 30px; 
+    }
+
+    .service-card .service-card-text {
+        font-size: 22px; 
+    }
+
+    .service-card .service-card-button button {
+        padding: 8px 20px;
+        font-size: 18px; 
+    }
+}
+
+/* CONTACT US PAGE */
+.contact-us {
+    background-color: var(--background);
+    background-image: url("../images/footer-bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-us-text {
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact-card {
+    background-color: var(--cardButton);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contact-card .contact-title {
+    font-size: 32px;
+}
+
+.contact-card .contact-description {
+    font-size: 22px;
+    color: var(--background);
+    font-weight: 400;
+}
+
+.google-map {
+    width: 100%;
+    height: 680px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-us-text {
+        font-size: 48px; 
+    }
+
+    .contact-card {
+        padding: 15px; 
+        box-shadow: 4px 2px 2px 0px rgba(0, 0, 0, 0.25); 
+    }
+
+    .contact-card .contact-title {
+        font-size: 24px; 
+    }
+
+    .contact-card .contact-description {
+        font-size: 18px;
+    }
+}
+
+
 /* FOOTER */
 .footer {
-    background-color: var(--footerBackground);
+    background-color: var(--background);
     background-image: url("../images/footer-bg.png");
     background-position: center center; 
     background-size: cover;
@@ -492,4 +653,49 @@ body {
     .footer .footer-box .footer-contact .footer-description {
         font-size: 14px;
     }
+}
+
+/* MODAL */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+  
+.modal {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.modal h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+  
+.modal p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.modal button {
+    background-color: var(--button);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
 }

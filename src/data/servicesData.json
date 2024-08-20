@@ -1,0 +1,126 @@
+[
+    { 
+      "id": 1, 
+      "name": "General, GI & Laparoscopic Surgery", 
+      "offeredBy": "Dr. Parthiv Sanghvi", 
+      "description": {
+        "text": "All major, supramajor and minor surgeries of various parts of the body like thyroid, breast, gall bladder, intestines, stomach, hernia, hydrocole, piles, fissure, lumps, earlobe repair, wound suturing and many more, done by experienced hands of Dr. Parthiv Sanghvi in numerous private hospitals in Vile Parle and Andheri like:",
+        "points": [
+          "Nanavati Superspeciality Hospital",
+          "Advanced Mutlispeciality Hospital",
+          "Criticare Hospital",
+          "BSES MG Hospital (Brahmakumaris)"
+        ]
+      }
+    },
+    { 
+      "id": 2, 
+      "name": "Varicose Veins Treatment", 
+      "offeredBy": "Dr. Parthiv Sanghvi", 
+      "description": "Malformation of the veins of the lower limbs causing the veins to enlarge, puff up or become prominent is called varicose veins. Sometimes, all one gets is pain or discomfort in the leg or rarely, one may get a varicose ulcer. At Nurture & Suture Clinic, Dr. Parthiv Sanghvi offers both conservative treatment as well as laser therapy and surgery of varicose veins"
+    },
+    { 
+      "id": 3, 
+      "name": "Breast Lumps And Cancer", 
+      "offeredBy": "Dr. Parthiv Sanghvi",
+      "description": "If u ever find a breast lump (during a self-breast examination), you may worry that it could be a breast cancer. However, not all breast lumps are cancerous, especially in young women. It is advisable to get yourself examined by a surgeon, if you find a breast lump, especially if it is new, feels different from before or from the other breast. Dr. Parthiv Sanghvi deals with all kinds of breast lumps – whether benign a malignant."
+    },
+    { 
+      "id": 4, 
+      "name": "Thyroid Surgery", 
+      "offeredBy": "Dr. Parthiv Sanghvi",
+      "description": "Thyroid Gland is the butterfly shaped gland located at the base of the neck. A swelling of the thyroid gland can be associated with normal thyroid function or hypo- or hyperthyoidism. Most thyroid lumps are benign, but a small percentage of thyroid nodules are malignant. Treatment offered is medications, thyroid hormone and/or surgery."
+    },
+    { 
+      "id": 5, 
+      "name": "Hernia Repair", 
+      "offeredBy": "Dr. Parthiv Sanghvi",
+      "description": "A hernia is a bulging of an internal organ like the stomach or intestine through the wall of the muscle or tissue which normally holds it in its place. The common forms of hernia occur in the groin (inguinal) or abdomen (umbilical or paraumbilical). Rarely one may have a hernia of the stomach (sliding hernia) or in the thigh (femoral)."
+    },
+    { 
+      "id": 6, 
+      "name": "Laparoscopic Surgery", 
+      "offeredBy": "Dr. Parthiv Sanghvi",
+      "description": {
+        "text": "Ever thought of avoiding huge scars on your abdomen while it is imperative to get an abdominal sugery done? Well, it is now possible to do surgeries on the appendix, gall bladder, spleen, hernia, stomach to treat peptic ulcer and reflux disease, and even for resection of some cancers! Apart from the cosmetic benefit of a key-hole (laparoscopy) surgery, laparoscopic surgery has the advantage of decreasing pain, shortening your hospital stay and early recovery! For more details about whether your condition is eligible for a laparoscopic surgery, please consult in person. Examples of surgeries done by laparoscopy-",
+        "points": [
+          "Appendicectomy, Cholecystectomy",
+          "Sliding Hernia Repair",
+          "Surgery for acid-reflux disease",
+          "Surgery for peptic ulcers",
+          "All types of hernias",
+          "Recurrent hernias"
+        ]
+      }
+    },
+    { 
+      "id": 7, 
+      "name": "Anal Fissures", 
+      "offeredBy": "Dr. Parthiv Sanghvi",
+      "description": "If you are suffering from painful defecation with or without blood in stools, you could be having anal fissures. Contact Dr. Parthiv Sanghvi for conservative as well as operative therapy for the same."
+    },
+    { 
+      "id": 8, 
+      "name": "Anal Fistulae", 
+      "offeredBy": "Dr. Parthiv Sanghvi",
+      "description": "If you have recurrent pain in the peri-anal area with pus discharge, you could be having an anal fistula. This can be treated by traditional open surgery as well as video-endoscopic treatment (minimal access surgery)."
+    },
+    { 
+      "id": 9, 
+      "name": "Surgery For Piles", 
+      "offeredBy": "Dr. Parthiv Sanghvi",
+      "description": {
+        "text": "Suffering from blood in stools? You could be suffering from piles/hemorrhoids. Dr. Parthiv Sanghvi specializes in Minimal Invasive Surgery for Piles which includes-",
+        "points": [
+          "Stapler Surgery",
+          "Laser Surgery",
+          "Banding",
+          "Injection Therapy"
+        ]
+      }
+    },
+    { 
+      "id": 10, 
+      "name": "Childhood Vaccination", 
+      "offeredBy": "Dr. Jagruti Sanghvi",
+      "description": "Vaccines help to build your child’s immunity against several life threatening infectious diseases. We, at Nuture and Suture, offer all vaccinations both compulsory and recomended, for all age groups. The vaccines are given to your baby, after due explanation of its effects and any untoward side-effects. All vaccines are administered by Dr. Jagruti Sanghvi herself. At every vaccination visit, a regular check-up of your baby is done with a growth record and any other issues are addressed. Vaccinations are given as per latest IAP (Indian Academy of Paediatrics) recommendations. So, BE WISE AND IMMUNIZE!!"
+    },
+    { 
+      "id": 11, 
+      "name": "Paediatric Allergy And Asthma", 
+      "offeredBy": "Dr. Jagruti Sanghvi",
+      "description": "If your kid has recurrent skin rashes, recurrent cold/cough/breathing difficluties or sometimes, even recurrent tummy troubles, he/she may be suffering from paediatric allergy!! Over the past 2 decades, numerous childeren have been diagnosed to have allergies involving their skin, respiratory system and sometimes, even their gastrointestinal tract. Bronchial Asthma is one of the severe form of respiratory allergy. If your child suffers from any of the above, or there is a family history of allergy, you may feel free to contact us!"
+    },
+    { 
+      "id": 12, 
+      "name": "Adolescent Health", 
+      "offeredBy": "Dr. Jagruti Sanghvi",
+      "description": {
+        "points": [
+          "Adolescent Vaccination: If you think that vaccines are meant for only children, then THINK AGAIN! Recent studies have recommended several vaccines for adults, especially senior citizens, to improve their immunity against several infectious diseases like influenza, pneumonia, pertusis etc. you to name a few. Nurture and Suture is glad to vaccinate your elder family members at home too and provide scientic guidance for the same.",
+          "Physical Health: All health issues specifically related to adolescents like BP tracking, PCOS, menstrual issues, obesity, acne, anemia etc. are addressing.",
+          "Mental Health: Psychological counselling is referred to for further guidance.",
+          "Adolescent Nutrition: Meal charting and nutrition needs are addressed."
+        ]
+      }
+    },
+    { 
+      "id": 13, 
+      "name": "Adolescent Vaccination", 
+      "offeredBy": "Dr. Jagruti Sanghvi",
+      "description": "Both catch-up and missed vaccination of your adolescent child can be done at our clinic. A customised vaccination program will be designed by our paediatrician Dr. Jagruti Sanghvi for your adolescent child. Also, vaccinations that are recommended for students planning to go abroad for further studies is given at our clinic. Advice regarding the vaccination and assistance to filling the University forms for vaccination details are done."
+    },
+    { 
+      "id": 14, 
+      "name": "Lactation Counselling", 
+      "offeredBy": "Dr. Jagruti Sanghvi",
+      "description": "“Breast milk is Liquid Gold – the first immunisation for your baby!” With this belief, Dr. Jagruti Sanghvi personally and painstakingly does both antenatal and post-delivery breastfeeding counselling! Antenatal / Postnatal hands-on workshop for breastfeeding is also conducted at our clinic. Exclusive breastfeeding is recommended for 6 months, in alignment with WHO guidelines!"
+    },
+    { 
+      "id": 15, 
+      "name": "Childhood Nutrition", 
+      "offeredBy": "Dr. Jagruti Sanghvi",
+      "description": "Nutrition forms the most important pillar on which the growth of your child deppends. A diet lacking adequate micro-nutrients and macros can cause recurrent infections and affect your child’s growth! Right from advising a weaning diet at an appropriate age of 4-6 months onwards to answering all your queries about your picky-eater, Dr. Jagruti Sanghvi will give you a detailed nutrition plan for your toddler and older kid."
+    }
+  ]
+  

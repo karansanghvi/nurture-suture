@@ -24,7 +24,7 @@ function Home() {
       {/* services */}
       <div className='p-20 services-home'>
         <p className='services-pretext font-extrabold'>Care you believe in</p>
-        <h1 className='services-text'>Our Services</h1>
+        <h1 className='service-text'>Our Services</h1>
         <div className='grid md:grid-cols-4 grid-cols-1 gap-10'>
           <div className='services-home-card'>
             <h1 className='text-center text-2xl font-extrabold'>General, GI & Laparosocopic Surgery</h1>
@@ -54,7 +54,7 @@ function Home() {
             <p className='about-home-pretext font-extrabold'>Welcome To Nurture & Suture</p>
             <h1 className='about-home-text'>Why Choose Us?</h1>
             <p className='about-home-description'>
-              We offer a wide range of consultation services for general surgery, paediatric surgery, laparoscopic surgery, gynaecological surgery, ENT surgery, urology surgery etc.  Whether you are coming in for a consultation, dressing or vaccination, our team of highly skilled & experienced doctors will ensure that you receive the best possible care.
+              We offer a wide range of consultation services for general surgery, paediatric surgery, laparoscopic surgery, gynaecological surgery, ENT surgery, urology surgery etc. Whether you are coming in for a consultation, dressing or vaccination, our team of highly skilled & experienced doctors will ensure that you receive the best possible care.
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ function Home() {
           <div className='contact-home-card'>
             <img src={call} alt="" />
             <h1 className='contact-home-title font-extrabold'>Clinic Number</h1>
-            <p className='contact-home-description'>+022-26204142</p>
+            <a href="tel:+022-26204142" className='contact-description'>+022-26204142</a>
           </div>
           <div className='contact-home-card'>
             <img src={location} alt="" />
