@@ -508,6 +508,41 @@ body {
     }
 }
 
+/* PROGRAMS PAGE */
+.programs {
+    background-color: var(--background);
+    background-image: url("../images/footer-bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.programs .programs-text {
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.programs-card {
+    background-color: var(--cardButton) !important;
+    border-radius: 20px !important;
+}
+
+.programs-card .programs-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.programs-card .programs-button {
+    background-color: var(--button);
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+}
+
 /* CONTACT US PAGE */
 .contact-us {
     background-color: var(--background);
@@ -517,7 +552,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.contact-us-text {
+.contact-us .contact-us-text {
     color: white;
     font-size: 96px;
     font-weight: 700;
