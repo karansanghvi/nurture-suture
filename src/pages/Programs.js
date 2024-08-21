@@ -21,6 +21,15 @@ import cprIrla from '../assets/images/bls_workshop.png';
 import kangarooMotherCare from '../assets/images/kangaroo_mother_care.png';
 import childhoodObesity from '../assets/images/childhood_obesity.png';
 import pubertyWorkshop from '../assets/images/puberty.png';
+import nationalDewarmingDay from '../assets/images/national_dewarming_day.png';
+import substanceAbuse from '../assets/images/substance_abuse.png';
+import pulsePolio from '../assets/images/pulse_polio.png';
+import faqInVaccination from '../assets/images/faq_on_vaccination.png';
+import healthCheckupSlum from '../assets/images/health_chekcup_slum.png';
+import womansDay from '../assets/images/guiding_girls.png';
+import periods from '../assets/images/periods.png';
+import micronutrientDeficiency from '../assets/images/micronutrient_deficiency.png';
+import cmeOnGenetics from '../assets/images/genetics.png';
 
 const imageMap = {
   "Medical Health Checkup At Sane Guruji Vidyalaya": medialHealthCheckup,
@@ -42,7 +51,16 @@ const imageMap = {
   "CPR Workshop At Irla Nursing Home": cprIrla,
   "Kangaroo Mother Care At Advanced Hospital": kangarooMotherCare,
   "Childhood Obsesity Talk At Aditya Birla Hospital": childhoodObesity,
-  "Puberty Workshop At Shruti School Juhu, Mumbai": pubertyWorkshop
+  "Puberty Workshop At Shruti School Juhu, Mumbai": pubertyWorkshop,
+  "National Dewarming Day At Cooper Hospital": nationalDewarmingDay,
+  "Perils of Substance Abuse in Teenager At Sathaye College": substanceAbuse,
+  "Pulse Polio Campaign At Nurture And Suture": pulsePolio,
+  "FAQs In Vaccination At Indian Medial Association": faqInVaccination,
+  "Health Checkup Camp For Slum Childeren": healthCheckupSlum,
+  "Woman's Day At Shri Bhaghubhai Mafatlal Polytechnic": womansDay,
+  "Cashless, Rashless, Trashless and Carefree Periods": periods,
+  "Micronutrient Deficiency For Childeren": micronutrientDeficiency,
+  "CME On Genetics At Nanavati Super Speciality Hospital": cmeOnGenetics
 };
 
 function Programs() {
