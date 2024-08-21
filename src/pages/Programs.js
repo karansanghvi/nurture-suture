@@ -30,6 +30,9 @@ import womansDay from '../assets/images/guiding_girls.png';
 import periods from '../assets/images/periods.png';
 import micronutrientDeficiency from '../assets/images/micronutrient_deficiency.png';
 import cmeOnGenetics from '../assets/images/genetics.png';
+import Layout from './Layout';
+import Footer from './Footer';
+import GoToTopButton from '../components/GoToTopButton';
 
 const imageMap = {
   "Medical Health Checkup At Sane Guruji Vidyalaya": medialHealthCheckup,
@@ -75,7 +78,9 @@ function Programs() {
   };
 
   return (
-    <div className="mt-32">
+    <>
+    <Layout/>
+    <div>
       <div className="programs">
         <h1 className="programs-text">Programs</h1>
       </div>
@@ -117,6 +122,9 @@ function Programs() {
 
       <br />
     </div>
+    <Footer/>
+    <GoToTopButton/>
+    </>
   );
 }
 

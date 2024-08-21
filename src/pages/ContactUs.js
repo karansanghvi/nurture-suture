@@ -3,10 +3,15 @@ import "../assets/styles/style.css";
 import call from '../assets/images/Group 188.png';
 import location from '../assets/images/Group 178.png';
 import time from '../assets/images/Group 177.png';
+import Layout from './Layout';
+import Footer from './Footer';
+import GoToTopButton from '../components/GoToTopButton';
 
 function ContactUs() {
   return (
-    <div className='mt-32'>
+    <>
+    <Layout/>
+    <div>
       <div className='contact-us'>
         <h1 className='contact-us-text'>Contact Us</h1>
       </div>
@@ -51,6 +56,9 @@ function ContactUs() {
       </div>
       <br/>
     </div>
+    <Footer/>
+    <GoToTopButton/>
+    </>
   )
 }
 

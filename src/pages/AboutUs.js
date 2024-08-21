@@ -3,10 +3,15 @@ import "../assets/styles/style.css";
 import dr_parthiv from "../assets/images/image 1.png";
 import dr_jagruti from "../assets/images/image 2.png";
 import { IoMdCall, IoMdMail } from 'react-icons/io';
+import Layout from './Layout';
+import Footer from './Footer';
+import GoToTopButton from '../components/GoToTopButton';
 
 function AboutUs() {
   return (
-    <div className='mt-32'>
+    <>
+    <Layout/>
+    <div>
       <div className='about-us'>
         <h1 className='about-us-text'>About Us</h1>
       </div>
@@ -118,6 +123,9 @@ function AboutUs() {
         </div>
       <br></br>
     </div>
+    <Footer/>
+    <GoToTopButton/>
+    </>
   )
 }
 

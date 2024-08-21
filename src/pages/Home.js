@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Layout from './Layout';
+import Footer from './Footer';
 import '../assets/styles/style.css';
 import object from '../assets/images/Object 1.png';
 import dr_parthiv from '../assets/images/Dr.-Parthiv-Sanghvi-300x289-removebg-preview 1.png';
@@ -7,10 +9,13 @@ import dr_jagruti from '../assets/images/dr-jagruti-removebg-preview 1.png';
 import call from '../assets/images/Group 188.png';
 import location from '../assets/images/Group 178.png';
 import time from '../assets/images/Group 177.png';
+import GoToTopButton from '../components/GoToTopButton';
 
 function Home() {
   return (
-    <div className='mt-32'>
+    <>
+    <Layout/>
+    <div>
       {/* hero banner */}
       <div className='hero'>
         <div className='hero-box'>
@@ -24,7 +29,7 @@ function Home() {
       {/* services */}
       <div className='p-20 services-home'>
         <p className='services-pretext font-extrabold'>Care you believe in</p>
-        <h1 className='service-text'>Our Services</h1>
+        <h1 className='service-home-text' style={{ fontSize: '75' }}>Our Services</h1>
         <div className='grid md:grid-cols-4 grid-cols-1 gap-10'>
           <div className='services-home-card'>
             <h1 className='text-center text-2xl font-extrabold'>General, GI & Laparosocopic Surgery</h1>
@@ -112,6 +117,9 @@ function Home() {
         </div>
       </div>
     </div>
+    <Footer/>
+    <GoToTopButton/>
+    </>
   );
 }
 

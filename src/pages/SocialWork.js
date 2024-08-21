@@ -7,6 +7,9 @@ import mrUtpalSchool from '../assets/images/utpal-sanghvi.png';
 import mrChatrabhujSchool from '../assets/images/cnms.png';
 import bloodDonation from '../assets/images/blood_donation.png';
 import ppeKitsDonation from '../assets/images/ppe_kits_donation.png';
+import Layout from './Layout';
+import Footer from './Footer';
+import GoToTopButton from '../components/GoToTopButton';
 
 const imageMap = {
   "Campaign At Nurture And Suture Clinic": mrNurtureAndSuture,
@@ -34,7 +37,9 @@ function SocialWork() {
   };
 
   return (
-    <div className="mt-32">
+    <>
+    <Layout/>
+    <div>
       <div className="social-work">
         <h1 className="social-work-text">Social Work</h1>
       </div>
@@ -111,6 +116,9 @@ function SocialWork() {
       )}
       <br />
     </div>
+    <Footer/>
+    <GoToTopButton/>
+    </>
   );
 }
 

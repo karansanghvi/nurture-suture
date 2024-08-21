@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import servicesData from '../data/servicesData.json';
+import Layout from './Layout';
 import "../assets/styles/style.css";
+import Footer from './Footer';
+import GoToTopButton from '../components/GoToTopButton';
 
 function Services() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -20,7 +23,9 @@ function Services() {
   }
 
   return (
-    <div className='mt-32'>
+    <>
+    <Layout/>
+    <div>
       <div className='services'>
         <h1 className='services-text'>Services</h1>
       </div>
@@ -82,6 +87,9 @@ function Services() {
       )}
       <br />
     </div>
+    <Footer/>
+    <GoToTopButton/>
+    </>
   );
 }
 

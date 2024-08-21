@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Layout from "./pages/Layout";
+// import Layout from "./pages/Layout";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import Programs from "./pages/Programs";
@@ -13,14 +13,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout/>}>
-            <Route index element={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
             <Route path="aboutus" element={<AboutUs/>}/>
             <Route path="services" element={<Services/>}/>
             <Route path="programs" element={<Programs/>}/>
             <Route path="socialwork" element={<SocialWork/>}/>
             <Route path="contactus" element={<ContactUs/>}/>
-          </Route>
         </Routes>
       </BrowserRouter>
     </>
