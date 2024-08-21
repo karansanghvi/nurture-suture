@@ -527,11 +527,13 @@ body {
 .programs-card {
     background-color: var(--cardButton) !important;
     border-radius: 20px !important;
+    margin: auto;
 }
 
 .programs-card .programs-name {
     font-size: 20px;
     font-weight: 700;
+    text-align: center;
 }
 
 .programs-card .programs-button {
@@ -541,6 +543,51 @@ body {
     font-weight: 700;
     color: white;
     border-radius: 20px;
+    display: block;
+    margin: 10px auto 0; /* Center button */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 767px) {
+    .programs .programs-text {
+        font-size: 48px;
+    }
+
+    .programs-card {
+        max-width: 100%;
+        margin: 0 auto 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .programs-card .programs-name {
+        font-size: 18px;
+    }
+
+    .programs-card img {
+        height: auto;
+    }
+
+    .modal {
+        width: 90%;
+    }
+
+    .modal-overlay {
+        padding: 20px;
+    }
+
+    .modal .modal-title {
+        font-size: 24px;
+    }
+
+    .modal p {
+        font-size: 16px;
+    }
+
+    .modal button {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+    }
 }
 
 /* CONTACT US PAGE */
