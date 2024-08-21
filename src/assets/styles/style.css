@@ -431,7 +431,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .category-button.selected {
@@ -544,10 +544,9 @@ body {
     color: white;
     border-radius: 20px;
     display: block;
-    margin: 10px auto 0; /* Center button */
+    margin: 10px auto 0;
 }
 
-/* Responsive Design for Mobile */
 @media (max-width: 767px) {
     .programs .programs-text {
         font-size: 48px;
@@ -589,6 +588,133 @@ body {
         padding: 10px;
     }
 }
+
+/* SOCIAL WORK PAGE */
+.social-work {
+    background-color: var(--background);
+    background-image: url("../images/footer-bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-work-text {
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.news-channel-content .news-channel-description {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.news-channel-content .news-channel-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.news-channel-content .news-channel-box .news-channel-button {
+    background-color: var(--button);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.category-box {
+    border-radius: 20px;
+    background-color: var(--cardButton);
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+}
+
+.category-button.selected {
+    background-color: hsla(182, 100%, 35%, 1);
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.category-button {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.social-work-card {
+    background-color: var(--cardButton) !important;
+    border-radius: 20px !important;
+    margin: auto;
+}
+
+.social-work-card .social-work-card-text {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.social-work-card .social-work-card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-work-card .social-work-card-button button {
+    background-color: var(--button);
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    display: block;
+    margin: 10px auto 0;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .social-work-text {
+        font-size: 48px;
+    }
+
+    .category-box {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .category-button {
+        padding: 10px 30px;
+        font-size: 22px; 
+    }
+
+    .grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .social-work-card {
+        padding: 30px; 
+    }
+
+    .social-work-card .social-work-card-text {
+        font-size: 22px; 
+    }
+
+    .social-work-card .social-work-card-button button {
+        padding: 8px 20px;
+        font-size: 18px; 
+    }
+}
+
 
 /* CONTACT US PAGE */
 .contact-us {

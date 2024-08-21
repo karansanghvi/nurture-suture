@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "category": "MR Vaccine Campaign",
+      "name": "Campaign At Nurture And Suture Clinic",
+      "description": "Happy to share that our clinic Nurture & Suture was a centre for the Govt. MR (Measles-Rubella) vaccine campaign in the last week of February. Dr. Jagruti Sanghvi herself administered the vaccine free of cost to all kids in the age of 9 months-15 years!"
+    },
+    {
+      "id": 2,
+      "category":"MR Vaccine Campaign",
+      "name": "Campaign At Jamnabai Narsee School",
+      "description": "Dr. Jagruti Sanghvi and Dr. Parthiv Sanghvi conducted the MR Vaccine Campaign At Jamnabai Narsee School."
+    },
+    {
+      "id": 3,
+      "category": "MR Vaccine Campaign",
+      "name": "Campaign At Utpal Sanghvi International School",
+      "description": "Dr. Jagruti Sanghvi and Dr. Parthiv Sanghvi conducted the MR Vaccine Campaign At Utpal Sanghvi International School."
+    },
+    {
+      "id": 4,
+      "category":"MR Vaccine Campaign",
+      "name": "Campaign At Chatrabhuj Narsee Memorial School",
+      "description": "Dr. Parthiv Sanghvi and Dr. Jagruti Sanghvi organised the MR Vaccine Campaign at Chatrabhuj Narsee Memorial School (CNMS) Vile Parle West with honorable Health Minister of Maharashtra, Dr. Deepak Sawant."
+    },
+    {
+      "id": 5,
+      "category": "Donations",
+      "name": "Blood Donation",
+      "description": "Dr. Jagruti and Dr. Parthiv Sanghvi donated blood at Nanavati hospital owing to shortage of blood at the blood bank!"
+    },
+    {
+      "id": 6,
+      "category": "Donations",
+      "name": "PPE Kits Donation",
+      "description": "Dr Parthiv Sanghvi was fortunate to have been instrumental in donating 50 PPE kits for doctors and 450 bananas to patients and Staff of HBT hospital and Trauma Centre, Jogeshwari East which is a COVID HOSPITAL treating more than 150 pts. Donation was done by Jain Social group."
+    }
+  ]
+  

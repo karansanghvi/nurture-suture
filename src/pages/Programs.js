@@ -104,7 +104,7 @@ function Programs() {
         <div className="modal-overlay fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center">
           <div className="modal bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold">{selectedProgram.name}</h2>
-            <p className="mt-4">{selectedProgram.description}</p>
+            <p className="mt-4 text-justify">{selectedProgram.description}</p>
             <button
               onClick={closeModal}
               className="mt-4 bg-blue-500 text-white px-4 py-2 rounded"
