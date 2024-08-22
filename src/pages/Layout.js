@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { NavLink } from "react-router-dom"; // Import NavLink instead of Link
+import { Link } from "react-router-dom";
 import ns_logo from '../assets/images/ns_logo.png';
 import '../assets/styles/style.css';
 
@@ -8,7 +8,9 @@ function Layout() {
 	const navRef = useRef();
 
 	const showNavbar = () => {
-		navRef.current.classList.toggle("responsive_nav");
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
 	};
 
 	return (
@@ -16,12 +18,12 @@ function Layout() {
       <header>
         <img src={ns_logo} alt="" className="pr-5" />
         <nav ref={navRef}>
-          <NavLink to='/' className="link" activeClassName="active-link">Home</NavLink>
-          <NavLink to="/aboutus" className="link" activeClassName="active-link">About Us</NavLink>
-          <NavLink to="/services" className="link" activeClassName="active-link">Services</NavLink>
-          <NavLink to="/programs" className="link" activeClassName="active-link">Programs</NavLink>
-          <NavLink to="/socialwork" className="link" activeClassName="active-link">Social Work</NavLink>
-          <NavLink to="/contactus" className="link" activeClassName="active-link">Contact Us</NavLink>
+          <Link to='/' className="link">Home</Link>
+          <Link to="/aboutus" className="link">About Us</Link>
+          <Link to="/services" className="link">Services</Link>
+          <Link to="/programs" className="link">Programs</Link>
+          <Link to="/socialwork" className="link">Social Work</Link>
+          <Link to="/contactus" className="link">Contact Us</Link>
           <button
             className="nav-btn nav-close-btn"
             onClick={showNavbar}>

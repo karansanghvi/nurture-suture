@@ -28,8 +28,8 @@ function Home() {
 
       {/* services */}
       <div className='p-20 services-home'>
-        <p className='services-pretext font-extrabold'>Care you believe in</p>
-        <h1 className='service-home-text' style={{ fontSize: '75' }}>Our Services</h1>
+        <p className='services-pretext font-extrabold'>Medical Services For Your Need</p>
+        <h1 className='service-home-text'>Our Services</h1>
         <div className='grid md:grid-cols-4 grid-cols-1 gap-10'>
           <div className='services-home-card'>
             <h1 className='text-center text-2xl font-extrabold'>General, GI & Laparosocopic Surgery</h1>

@@ -199,10 +199,10 @@ nav {
     font-size: 32px;
 }
 
-.services-home .service-home-text {
+.service-home-text {
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 75px;
     font-weight: 700;
-    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .services-home .services-home-card {
@@ -227,9 +227,10 @@ nav {
         text-align: center;
     }
 
-    .services-home .services-home-text {
-        font-size: 20px; 
-        text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
+    .service-home-text {
+        text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 38px;
+        font-weight: 700;
         text-align: center;
     }
 
@@ -277,7 +278,7 @@ nav {
     }
 
     .about-home .about-home-text {
-        font-size: 28px;
+        font-size: 38px;
         text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
         text-align: center;
     }
