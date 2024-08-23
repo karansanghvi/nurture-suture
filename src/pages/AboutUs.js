@@ -6,10 +6,19 @@ import { IoMdCall, IoMdMail } from 'react-icons/io';
 import Layout from './Layout';
 import Footer from './Footer';
 import GoToTopButton from '../components/GoToTopButton';
+import { Helmet } from 'react-helmet';
 
 function AboutUs() {
   return (
     <>
+    <div>
+      <Helmet>
+        <meta 
+          name='keywords'
+          content='Dr. Parthiv Sanghvi Laparoscopic Surgeon, Dr. Parthiv Sanghvi General Surgeon Mumbai, Dr. Jagruti Sanghvi Pediatrician Mumbai, Dr. Jagruti Sanghvi Child Specialist, Experienced Pediatric Surgeon in Mumbai, Gastrointestinal Surgery Specialist Mumbai, Best Newborn and Child Specialist Mumbai, Top Pediatric Doctor in Mumbai'
+        />
+      </Helmet>
+    </div>
     <Layout/>
     <div>
       <div className='about-us'>
@@ -28,7 +37,7 @@ function AboutUs() {
           {/* dr parthiv sanghvi */}
           <div className='grid md:grid-cols-2 grid-cols-1'>
             <div>
-              <img src={dr_parthiv} alt="" />
+              <img src={dr_parthiv} alt="General Surgery Consultation in Mumbai" />
             </div>
             <div>
               <h1 className='doctor-name'>Dr. Parthiv Sanghvi</h1>
@@ -97,7 +106,7 @@ function AboutUs() {
               </div>
             </div>
             <div>
-              <img src={dr_jagruti} alt="" />
+              <img src={dr_jagruti} alt="Paediatrician in Mumbai" />
             </div>
           </div>
           <h1 className='pt-10 specialist-text pb-5'>Specialist In:</h1>

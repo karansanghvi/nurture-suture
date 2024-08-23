@@ -10,10 +10,23 @@ import call from '../assets/images/Group 188.png';
 import location from '../assets/images/Group 178.png';
 import time from '../assets/images/Group 177.png';
 import GoToTopButton from '../components/GoToTopButton';
+import { Helmet } from 'react-helmet';
 
 function Home() {
   return (
     <>
+    <div>
+      <Helmet>
+        <meta 
+          name="description"
+          content="Nurture and Suture Clinic in Vile Parle Mumbai offers medical services related to Surgery and Paediatrics by eminent doctors like Dr. Parthiv Sanghvi and Dr. Jagruti Sanghvi"
+        />
+        <meta 
+          name="keywords"
+          content="Nurture and Suture Clinic, Surgical and Pediatric Clinic in Mumbai, Best Pediatric Clinic in Mumbai, Laparoscopic Surgeon in Mumbai, Paediatrician in Mumbai, General Surgery Consultation in Mumbai, Best clinic for general surgery and pediatric care in Mumbai, Top-rated laparoscopic surgeon near Nanavati Hospital Mumbai, Comprehensive child healthcare services in Vile Parle Mumbai, Pediatric allergy and asthma treatment clinic Mumbai, Leading surgeon for thyroid and hernia surgery in Mumbai, Where to get adolescent vaccination in Mumbai, Best pediatric vaccination center in Vile Parle"
+        />
+      </Helmet>
+    </div>
     <Layout/>
     <div>
       {/* hero banner */}

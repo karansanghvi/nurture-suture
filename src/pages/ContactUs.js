@@ -6,10 +6,19 @@ import time from '../assets/images/Group 177.png';
 import Layout from './Layout';
 import Footer from './Footer';
 import GoToTopButton from '../components/GoToTopButton';
+import { Helmet } from 'react-helmet';
 
 function ContactUs() {
   return (
     <>
+    <div>
+      <Helmet>
+        <meta 
+          name="keywords"
+          content='Clinic in Vile Parle West, Surgical Clinic in Vile Parle Mumbai, Pediatric Clinic in Vile Parle, Healthcare Clinic near Nanavati Super Speciality Hospital, Pediatric and Surgical Clinic near Advanced Multispeciality Hospital, Clinics near Dadabahi Road Vile Parle'
+        />
+      </Helmet>
+    </div>
     <Layout/>
     <div>
       <div className='contact-us'>

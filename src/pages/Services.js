@@ -4,6 +4,7 @@ import Layout from './Layout';
 import "../assets/styles/style.css";
 import Footer from './Footer';
 import GoToTopButton from '../components/GoToTopButton';
+import { Helmet } from 'react-helmet';
 
 function Services() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -24,6 +25,18 @@ function Services() {
 
   return (
     <>
+    <div>
+      <Helmet>
+        <meta 
+          name='description'
+          content='Our clinic offers diverse medical services.'
+        />
+        <meta
+          name="keywords"
+          content='Laparoscopic Surgery Mumbai, General Surgery Mumbai, Pediatric Surgery Mumbai, Varicose Veins Treatment Mumbai, Breast Lump Surgery Mumbai, Thyroid Surgery Mumbai, Hernia Repair Mumbai, Anal Fissures Treatment Mumbai, Anal Fistula Treatment Mumbai, Piles Surgery Mumbai, Childhood Vaccination Mumbai, Pediatric Allergy Treatment Mumbai, Asthma Treatment for Children Mumbai, Adolescent Health Mumbai, Adolescent Vaccination Mumbai, Lactation Counseling Mumbai, Childhood Nutrition Counseling Mumbai'
+        />
+      </Helmet>
+    </div>
     <Layout/>
     <div>
       <div className='services'>
