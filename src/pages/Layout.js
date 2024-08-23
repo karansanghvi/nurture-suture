@@ -16,7 +16,7 @@ function Layout() {
 	return (
 		<>
       <header>
-        <img src={ns_logo} alt="Surgical and Pediatric Clinic in Mumbai" className="pr-5" />
+        <Link to="/"><img src={ns_logo} alt="Surgical and Pediatric Clinic in Mumbai" className="pr-5" /></Link>
         <nav ref={navRef}>
           <Link to='/' className="link">Home</Link>
           <Link to="/aboutus" className="link">About Us</Link>
