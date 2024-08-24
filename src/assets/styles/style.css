@@ -1,10 +1,10 @@
 :root {
     /* colors */
-    --background: hsla(186, 72%, 24%, 1); 
-    --isoText: hsla(0, 98%, 69%, 1);
+    --background: #116069; 
+    --isoText: #fd6262;
     --cardButton: hsla(214, 100%, 94%, 1);
     --button: hsla(182, 100%, 35%, 1);
-    --footerBackground: hsla(186, 80%, 32%, 1);
+    --footerBackground: #108693;
 }
 
 body {
