@@ -52,7 +52,7 @@ header {
 	display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
+    height: 140px;
     padding: 0 2rem;
     background-color: white;
     color: black;
@@ -63,7 +63,7 @@ header {
 }
 
 header img {
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 
@@ -73,13 +73,6 @@ nav .link {
     font-weight: 700;
 	text-decoration: none;
     font-size: 26px;
-}
-
-nav .active-link {
-    background-color: var(--background); 
-    padding: 0.5rem;
-    border-radius: 10px;
-    color: white;
 }
 
 header .nav-btn {
@@ -153,8 +146,9 @@ nav {
 }
 
 .hero .hero-text {
-    font-size: 85px;
+    font-size: 90px;
     font-weight: 700;
+    text-shadow: -1px 0 0px #000, 0 1px 0px #000, -2px 1px 0px #000, -1px 2px 0px #000, -3px 2px 0px #000, -2px 3px 0px #000, -4px 3px 0px #000, -3px 4px 0px #000, -5px 4px 0px #000, -4px 5px 0px #000, -6px 5px 0px #000, -5px 6px 15px #000;
 }
 
 .hero .hero-slogan {
@@ -303,9 +297,15 @@ nav {
     text-align: center;
 }
 
+.doctor-home .doctor-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .doctor-home .doctor-home-image {
-    width: 493px;
-    height: 513px;
+    width: 393px;
+    height: 413px;
 }
 
 .doctor-home .doctor-home-name {
@@ -344,7 +344,7 @@ nav {
     }
 
     .doctor-home .doctor-home-image {
-        height: 413px;
+        height: 218px;
     }
 
     .doctor-home .doctor-home-name {
@@ -496,6 +496,10 @@ nav {
 }
 
 @media(max-width: 768px) {
+    .about-us-description {
+        font-size: 18px;
+    }
+
     .meet-our-doctor {
         font-size: 38px;
         text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
@@ -871,8 +875,8 @@ nav {
 
 
 @media (max-width: 768px) {
-    .contact-us-text {
-        font-size: 48px; 
+    .contact-us .contact-us-text {
+        font-size: 48px;
     }
 
     .contact-card {
@@ -974,7 +978,7 @@ nav {
     }
 
     .footer .footer-box .footer-contact .footer-description {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 

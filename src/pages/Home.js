@@ -54,7 +54,7 @@ function Home() {
             <h1 className='text-center text-2xl font-extrabold'>Childhood Vaccination</h1>
           </div>
           <div className='services-home-card'>
-            <h1 className='text-center text-2xl font-extrabold'>Paediatric Allery & Asthama</h1>
+            <h1 className='text-center text-2xl font-extrabold'>Paediatric Allery & Asthma</h1>
           </div>
         </div>
         <div className='pt-10 flex justify-center'>
@@ -84,7 +84,9 @@ function Home() {
         <h1 className='doctor-home-text'>Our Doctors</h1>
         <div className='grid md:grid-cols-2 grid-cols-1 md:gap-72 gap-10'>
           <div>
-            <img src={dr_parthiv} alt="" className='doctor-home-image'/>
+            <div className='doctor-box'>
+              <img src={dr_parthiv} alt="" className='doctor-home-image'/>
+            </div>
             <h1 className='doctor-home-name font-extrabold'>Dr. Parthiv Sanghvi</h1>
             <p className='doctor-home-title'>General, Gastrointestinal & Laparoscopic Surgeon</p>
             <div className='pt-5 flex justify-center'>
@@ -92,7 +94,9 @@ function Home() {
             </div>
           </div>
           <div>
-            <img src={dr_jagruti} alt="" className='doctor-home-image'/>
+            <div className='doctor-box'>
+              <img src={dr_jagruti} alt="" className='doctor-home-image'/>
+            </div>
             <h1 className='doctor-home-name font-extrabold'>Dr. Jagruti Sanghvi</h1>
             <p className='doctor-home-title'>Newborn And Child Specialist</p>
             <div className='pt-5 flex justify-center'>

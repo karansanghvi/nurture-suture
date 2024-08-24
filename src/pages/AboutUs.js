@@ -123,7 +123,7 @@ function AboutUs() {
           </div>
           <div className='grid md:grid-cols-2 grid-cols-1 gap-5 pt-10 center-box'>
             <div className='specialist-card'>
-              <h1 className='specialist-card-text'>Paediatric Allergy & Asthama</h1>
+              <h1 className='specialist-card-text'>Paediatric Allergy & Asthma</h1>
             </div>
             <div className='specialist-card'>
               <h1 className='specialist-card-text'>Childhood Nutrition</h1>
