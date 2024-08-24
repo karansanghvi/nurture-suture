@@ -36,7 +36,7 @@ function ContactUs() {
           <div className='contact-card'>
             <img src={location} alt="Location Icon" className='w-12 md:w-16'/>
             <h1 className='contact-title font-extrabold'>Location</h1>
-            <p className='contact-description'>406, DSquare,Dadabahi Road, Opp. CNMS, Vile Parle (West), 
+            <p className='contact-description'>406, DSquare, Dadabhai Road, Opp. CNMS School, Vile Parle (West), 
             Mumbai - 56</p>
           </div>
           <br/>
@@ -44,7 +44,8 @@ function ContactUs() {
             <img src={time} alt="Time Icon" className='w-12 md:w-16'/>
             <h1 className='contact-title font-extrabold'>Working Hours</h1>
             <p className='contact-description'>
-            Mon - Sat: 10 am to 1:30 pm
+            Mon - Sat: 10:30 am to 1:30 pm
+            <br/>
             Evening by appointment
             <br/>
             Sunday closed

@@ -25,10 +25,7 @@ function AboutUs() {
         <h1 className='about-us-text'>About Us</h1>
       </div>
       <p className='about-us-description p-20'>
-        The clinic is run by a team of specialists including Dr. Parthiv Sanghvi, a prominent laparoscopic surgeon, and Dr. Jagruti Sanghvi, a paediatrician. 
-        The facility is fully equipped with the most up-to-date technology and resources.
-        Nurture & Suture Clinic offer a wide range of consultation services for general surgery, paediatric surgery, laparoscopic surgery, gynaecological surgery, ENT surgery, urology surgery etc. 
-        Whether you are coming in for a consultation, dressing or vaccination, our team of highly skilled & experienced doctors will ensure that you receive the best possible care.
+      The clinic is run by a team of specialists that include Dr. Parthiv Sanghvi, a prominent general, GI, and laparoscopic surgeon, and Dr. Jagruti Sanghvi, a newborn, child, and adolescent specialist.  The facility is fully equipped with the most up-to-date technology and resources. Nurture & Suture Clinic offers a wide range of consultation services for general pediatrics and general surgery, pediatric surgery, GI surgery, and laparoscopic surgery.  Whether you are coming in for a consultation, dressing, or vaccination, our team of highly skilled & experienced doctors will ensure that you receive the best possible care.
       </p>
 
       {/* meet our doctors */}
@@ -43,7 +40,7 @@ function AboutUs() {
               <h1 className='doctor-name'>Dr. Parthiv Sanghvi</h1>
               <p className='doctor-title'>General, Gastrointestinal & Laparoscopic Surgeon</p>
               <p className='doctor-description'>
-                Dr. Parthiv Sanghvi is an eminent General, Gastrointestinal and Laparoscopic Surgeon attached to tertiary hospitals which includes: Nanavati Super Speciality Hospital, BSES MG Hospital, Advanced Multispeciality Hospital, Criticare Hospital in Mumbai with two decades of experience. He is a leader with a vision, a compassionate doctor and a dedicated Surgeon with great finesse in his work.
+              Dr. Parthiv Sanghvi is an eminent General, Gastrointestinal, and Laparoscopic Surgeon, practicing since 2001 and attached to tertiary hospitals that include: Nanavati MAX Super Speciality Hospital, BSES MG Hospital, Advanced Multispeciality Hospital, Criticare Hospital in Mumbai. He is a leader with a vision, a compassionate doctor, and a dedicated Surgeon with great finesse in his work.
               </p>
               <div className='logo-box'>
                 <IoMdCall className='doctor-symbol' />
@@ -59,7 +56,7 @@ function AboutUs() {
           <h1 className='pt-10 specialist-text pb-5'>Specialist In:</h1>
           <div className='grid md:grid-cols-3 grid-cols-1 gap-5'>
             <div className='specialist-card'>
-              <h1 className='specialist-card-text'>Staper Surgey For Piles</h1>
+              <h1 className='specialist-card-text'>Stapler Surgery For Piles</h1>
             </div>
             <div className='specialist-card'>
               <h1 className='specialist-card-text'>Laparoscopic Appendicectomy</h1>
@@ -79,9 +76,15 @@ function AboutUs() {
               <h1 className='specialist-card-text'>Complex Gastro</h1>
             </div>
           </div>
-          <div className='pt-10 center-box'>
+          <div className='grid md:grid-cols-3 grid-cols-1 gap-5 pt-10'>
             <div className='specialist-card'>
-              <h1 className='specialist-card-text'>Complex Gastro</h1>
+              <h1 className='specialist-card-text'>Varicose Veins Treatment</h1>
+            </div>
+            <div className='specialist-card'>
+              <h1 className='specialist-card-text'>Complex GI Surgery</h1>
+            </div>
+            <div className='specialist-card'>
+              <h1 className='specialist-card-text'>Thyroid Surgery</h1>
             </div>
           </div>
 
@@ -93,7 +96,7 @@ function AboutUs() {
               <h1 className='doctor-name'>Dr. Jagruti Sanghvi</h1>
               <p className='doctor-title'>Newborn And Child Specialist</p>
               <p className='doctor-description'>
-                Dr. Jagruti Sanghvi is a leading Newborn & Child Specialist in Mumbai with 2 decades of wholesome experience. She is attached to esteemed tertiary hospitals in Mumbai which includes: Nanavati Super Speciality Hospital, Advanced Multispeciality Hospital and numerous Medical Associations. A multifaceted personality, she is an acclaimed orator, a clinician par excellence and a compassionate doctor with Childcare and Adolescent Health as her passion.
+              Dr. Jagruti Sanghvi is a leading Newborn, Child, and Adolescent Specialist in Mumbai practicing since 2002. She is attached to esteemed tertiary hospitals in Mumbai which include: Nanavati Super Speciality Hospital, Advanced Multispeciality Hospital, and numerous Medical Associations. She is certified in Global Adolescent Health from the University of Melbourne. A multifaceted personality, she is an acclaimed orator, a clinician par excellence, and a compassionate doctor with Childcare and Adolescent Health as her passion.
               </p>
               <div className='logo-box'>
                 <IoMdCall className='doctor-symbol' />

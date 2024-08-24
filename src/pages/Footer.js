@@ -21,7 +21,7 @@ function Footer() {
             <br/>
             <div className='footer-contact'>
                 <FaLocationDot className='footer-logo' />
-                <p className='footer-description font-medium'>406, DSquare, Dadabahi Road, Opp. CNMS, Vile Parle (West), 
+                <p className='footer-description font-medium'>406, DSquare, Dadabhai Road, Opp. CNMS School, Vile Parle (West), 
                 Mumbai - 56</p>
             </div>
             <br/>

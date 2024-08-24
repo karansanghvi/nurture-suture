@@ -188,11 +188,6 @@ nav {
 
 
 /* SERVICES - HOME */
-.services-home .services-pretext {
-    color: var(--background);
-    font-size: 32px;
-}
-
 .service-home-text {
     text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 75px;
@@ -216,11 +211,6 @@ nav {
 }
 
 @media (max-width: 768px) {
-    .services-home .services-pretext {
-        font-size: 20px;
-        text-align: center;
-    }
-
     .service-home-text {
         text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
         font-size: 38px;

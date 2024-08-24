@@ -32,7 +32,7 @@ function Home() {
       {/* hero banner */}
       <div className='hero'>
         <div className='hero-box'>
-          <h1 className='text-center text-white hero-text'>Welcome To - Nurture & Suture</h1>
+          <h1 className='text-center text-white hero-text'>Nurture & Suture</h1>
           <h1 className='text-center text-white hero-text'>Surgical & Paediatric Clinic</h1>
           <p className='hero-slogan text-center'>...where care comes first!!</p>
           <h1 className='hero-ISO text-center'>ISO 9001:2015 Certified Clinic</h1>
@@ -41,7 +41,6 @@ function Home() {
 
       {/* services */}
       <div className='p-20 services-home'>
-        <p className='services-pretext font-extrabold'>Medical Services For Your Need</p>
         <h1 className='service-home-text'>Our Services</h1>
         <div className='grid md:grid-cols-4 grid-cols-1 gap-10'>
           <div className='services-home-card'>
@@ -54,7 +53,7 @@ function Home() {
             <h1 className='text-center text-2xl font-extrabold'>Childhood Vaccination</h1>
           </div>
           <div className='services-home-card'>
-            <h1 className='text-center text-2xl font-extrabold'>Paediatric Allery & Asthma</h1>
+            <h1 className='text-center text-2xl font-extrabold'>Lactation Counselling & Nutrition</h1>
           </div>
         </div>
         <div className='pt-10 flex justify-center'>
@@ -72,7 +71,8 @@ function Home() {
             <p className='about-home-pretext font-extrabold'>Welcome To Nurture & Suture</p>
             <h1 className='about-home-text'>Why Choose Us?</h1>
             <p className='about-home-description'>
-              We offer a wide range of consultation services for general surgery, paediatric surgery, laparoscopic surgery, gynaecological surgery, ENT surgery, urology surgery etc. Whether you are coming in for a consultation, dressing or vaccination, our team of highly skilled & experienced doctors will ensure that you receive the best possible care.
+              We offer a wide range of consultation services for general paediatrics and general surgery, paediatric surgery, GI surgery and laparoscopic surgery.
+              Whether you are coming in for a consultation, dressing or vaccination, our team of highly skilled & experienced doctors will ensure that you receive the best possible care.
             </p>
           </div>
         </div>
@@ -113,19 +113,19 @@ function Home() {
           <div className='contact-home-card'>
             <img src={call} alt="" />
             <h1 className='contact-home-title font-extrabold'>Clinic Number</h1>
-            <a href="tel:+022-26204142" className='contact-description'>+022-26204142</a>
+            <a href="tel:+022-26204142" className='contact-home-description'>+022-26204142</a>
           </div>
           <div className='contact-home-card'>
             <img src={location} alt="" />
             <h1 className='contact-home-title font-extrabold'>Location</h1>
-            <p className='contact-home-description'>406, DSquare,Dadabahi Road, Opp. CNMS, Vile Parle (West), 
+            <p className='contact-home-description'>406, DSquare, Dadabhai Road, Opp. CNMS School, Vile Parle (West), 
             Mumbai - 56</p>
           </div>
           <div className='contact-home-card'>
             <img src={time} alt="" />
             <h1 className='contact-home-title font-extrabold'>Working Hours</h1>
             <p className='contact-home-description'>
-            Mon - Sat: 10 am to 1:30 pm
+            Mon - Sat: 10:30 am to 1:30 pm
             Evening by appointment
             <br/>
             Sunday closed
