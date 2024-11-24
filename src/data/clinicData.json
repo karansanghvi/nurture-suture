@@ -1,0 +1,71 @@
+{
+    "noteOne": "Clinic Information",
+    "about": "The clinic is run by a team of specialists that include Dr. Parthiv Sanghvi, a prominent general, GI, and laparoscopic surgeon, and Dr. Jagruti Sanghvi, a newborn, child, and adolescent specialist. The facility is fully equipped with the most up-to-date technology and resources. Nurture & Suture Clinic offers a wide range of consultation services for general pediatrics and general surgery, pediatric surgery, GI surgery, and laparoscopic surgery. Whether you are coming in for a consultation, dressing, or vaccination, our team of highly skilled & experienced doctors will ensure that you receive the best possible care.",
+    "location": "The clinic is located at: 406, DSquare, Dadabhai Road, Opp. CNMS School, Vile Parle (West), Mumbai - 56",
+    "workingHours": "Our working hours are: Monday to Saturday: 10:30 a.m. to 1:30 p.m., evenings are by appointment and sunday closed.",
+    "clinicNumber": "You can call us for any enquiries on: +022-26204142", 
+    "doctors": "Dr. Parthiv Sanghvi (General, Gastrointestinal & Laparoscopic Surgeon) and Dr. Jagruti Sanghvi (Newborn & Child Specialist)",
+    "socialMedia": "Our facebook account is: surgicalandpaediatricclinic", 
+    "clinicServices": [
+        "General GI & Laparoscopic Surgery",
+        "Varicose Veins Treatment",
+        "Breast Lumps Cancer",
+        "Thyroid Surgery",
+        "Hernia Repair",
+        "Laparoscopic Surgery",
+        "Anal Fissures",
+        "Anal Fistulae",
+        "Surgery For Piles",
+        "Childhood Vaccination",
+        "Paediatric Allergy and Asthma",
+        "Adolescent Health",
+        "Adolescent Vaccination",
+        "Lactation Counselling",
+        "Childhood Nutrition"
+    ],
+    "clinicMoto": "Nurture & Suture's moto is 'where care comes first!!'",
+    "typeOfClinic": "Nurture & Suture is a surgical and paediatric clinic", 
+    "clinicCertification": "Our clinic's certification is: ISO 9001:2015 Certified Clinic", 
+
+    "noteTwo": "Dr. Parthiv Sanghvi Information", 
+    "parthivTypeOfDoctor": "Dr. Parthiv Sanghvi is a General, Gastrointestinal & Laparoscopic Surgeon",
+    "aboutParthiv": "Dr. Parthiv Sanghvi is an eminent General, Gastrointestinal, and Laparoscopic Surgeon, practicing since 2001 and attached to tertiary hospitals that include: Nanavati MAX Super Speciality Hospital, BSES MG Hospital, Advanced Multispeciality Hospital, Criticare Hospital in Mumbai. He is a leader with a vision, a compassionate doctor, and a dedicated Surgeon with great finesse in his work.",
+    "parthivHospitalsAttached": [
+        "Nanavati MAX Super Speciality Hospital",
+        "BSES MG Hospital",
+        "Advanced Multispeciality Hospital",
+        "Criticare Hospital"
+    ], 
+    "parthivPhoneNumber": "Call on +91-9820304284 for any queries to Dr. Parthiv Sanghvi",
+    "parthivEmailID": "You can send a mail to Dr. Parthiv Sanghvi on dr_parthiv@rediffmail.com",
+    "parthivContact": "To contact Dr. Parthiv Sanghvi, you can call on +91-9820304284 or send a mail on dr_parthiv@rediffmail.com",
+    "parthivSpecialist": [
+        "Stapler Surgery For Piles",
+        "Laparoscopic Appendicectomy",
+        "Laparoscopic Hernia",
+        "Laparoscopic Splenectomy",
+        "Surgery Of GERD",
+        "Complex Gastro",
+        "Varicose Veins Treatment",
+        "Complex GI Surgery",
+        "Thyroid Surgery"
+    ],
+
+    "noteThree": "Dr. Jagruti Sanghvi Information",
+    "jagrutiTypeOfDoctor": "Dr. Jagruti Sanghvi is a Newborn and Child Specialist",
+    "aboutJagruti": "Dr. Jagruti Sanghvi is a leading Newborn, Child, and Adolescent Specialist in Mumbai practicing since 2002. She is attached to esteemed tertiary hospitals in Mumbai which include: Nanavati Super Speciality Hospital, Advanced Multispeciality Hospital, and numerous Medical Associations. She is certified in Global Adolescent Health from the University of Melbourne. A multifaceted personality, she is an acclaimed orator, a clinician par excellence, and a compassionate doctor with Childcare and Adolescent Health as her passion.",
+    "jagrutiHospitalsAttached": [
+        "Nanavati Super Speciality Hospital",
+        "Advanced Multispeciality Hospital"
+    ],
+    "jagrutiPhoneNumber": "Call on +91-9819313303 for any queries to Dr. Jagruti Sanghvi",
+    "jagrutiEmailID": "You can send a mail to Dr. Jagruti Sanghvi on dr_jagruti@hotmail.com",
+    "jagrutiContact": "To contact Dr. Jagruti Sanghvi, you can call on +91-9819313303 or send a mail on dr_jagruti@hotmail.com",
+    "jagrutiSpecialist": [
+        "Adolescent Health",
+        "Lactation Counselling",
+        "Immunization",
+        "Paediatric Allergy & Asthma",
+        "Childhood Nutrition"
+    ]
+}

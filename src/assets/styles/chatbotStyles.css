@@ -1,0 +1,224 @@
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #00796b;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.chatbot-icon:hover {
+    background-color: #004d40;
+}
+
+.chatbot-popup {
+    position: fixed;
+    bottom: 90px; 
+    right: 20px;
+    width: 350px;
+    max-height: 500px;
+    z-index: 1000;
+}
+
+.chatContainer {
+    position: fixed; 
+    bottom: 40px;    
+    left: 20px;      
+    max-width: 400px;
+    margin: 0;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;   
+}
+
+.close-chat-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.chatContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.chatWindow {
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 2px solid #ddd;
+    max-height: 400px;
+    padding-right: 10px;
+}
+
+.typingIndicator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: typing 1s infinite;
+}
+
+.typingText {
+    font-size: 32px; 
+    color: #888;
+    font-weight: bold;
+    animation: pulse 1s infinite; 
+}
+
+@keyframes typing {
+    0% {
+        content: ".";
+    }
+    33% {
+        content: "..";
+    }
+    66% {
+        content: "...";
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+  
+.botMessage, .userMessage {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+  
+.botMessage {
+    justify-content: flex-start;
+}
+  
+.userMessage {
+    justify-content: flex-end;
+}
+  
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ccc;
+}
+  
+.messageText {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+  
+.botMessage .messageText {
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+  
+.userMessage .messageText {
+    background-color: #c5e1a5;
+    color: #33691e;
+}
+
+input.input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+  
+button.button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+  button.button:hover {
+    background-color: #004d40;
+}
+  
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+  
+.optionButton {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #80cbc4;
+    color: #004d40;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.optionButton:hover {
+    background-color: #004d40;
+    color: white;
+}
+  
+.chatWindow::-webkit-scrollbar {
+    width: 5px;
+}
+  
+.chatWindow::-webkit-scrollbar-thumb {
+    background-color: #b0bec5;
+    border-radius: 10px;
+}
+
+.chatWindow::-webkit-scrollbar-track {
+    background-color: #eceff1;
+}
+  

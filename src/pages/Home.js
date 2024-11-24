@@ -11,6 +11,7 @@ import location from '../assets/images/Group 178.png';
 import time from '../assets/images/Group 177.png';
 import GoToTopButton from '../components/GoToTopButton';
 import { Helmet } from 'react-helmet';
+import ChatBotIcon from '../components/ChatBotIcon';
 
 function Home() {
   return (
@@ -136,6 +137,7 @@ function Home() {
     </div>
     <Footer/>
     <GoToTopButton/>
+    <ChatBotIcon/>
     </>
   );
 }

@@ -1,0 +1,118 @@
+{
+    "location": [
+        "location",
+        "address",
+        "where is the clinic",
+        "clinic location",
+        "where can I find the clinic"
+    ],
+    "workingHours": [
+        "working hours",
+        "hours",
+        "timing",
+        "what time does the clinic open",
+        "when is the clinic open"
+    ],
+    "clinicServices": [
+        "clinic services",
+        "services offered",
+        "what services are available",
+        "what does the clinic provide"
+    ],
+    "about": [
+        "about the clinic",
+        "information about the clinic",
+        "tell me about the clinic",
+        "clinic details"
+    ],
+    "clinicNumber": [
+        "clinic number",
+        "contact number",
+        "phone number"
+    ],
+    "clinicMoto": [
+        "clinic moto",
+        "motto"
+    ],
+    "typeOfClinic": [
+        "type of clinic",
+        "what type of clinic is it"
+    ],
+    "clinicCertification": [
+        "clinic certification",
+        "what certification does the clinic have"
+    ],
+    "parthivTypeOfDoctor": [
+        "Dr. Parthiv Sanghvi type of doctor",
+        "what kind of doctor is Dr. Parthiv Sanghvi",
+        "Dr. Parthiv Sanghvi speciality",
+        "what is Dr. Parthiv Sanghvi's expertise"
+    ],
+    "aboutParthiv": [
+        "about Dr. Parthiv Sanghvi",
+        "information about Dr. Parthiv Sanghvi",
+        "tell me about Dr. Parthiv Sanghvi",
+        "Dr. Parthiv Sanghvi details"
+    ],
+    "parthivHospitalsAttached": [
+        "Dr. Parthiv Sanghvi hospitals attached",
+        "where does Dr. Parthiv Sanghvi practice",
+        "which hospitals is Dr. Parthiv Sanghvi attached to"
+    ],
+    "parthivPhoneNumber": [
+        "Dr. Parthiv Sanghvi phone number",
+        "contact Dr. Parthiv Sanghvi",
+        "how to contact Dr. Parthiv Sanghvi"
+    ],
+    "parthivEmailID": [
+        "Dr. Parthiv Sanghvi email id",
+        "Dr. Parthiv Sanghvi email",
+        "email Dr. Parthiv Sanghvi"
+    ],
+    "parthivContact": [
+        "contact Dr. Parthiv Sanghvi",
+        "Dr. Parthiv Sanghvi contact"
+    ],
+    "parthivSpecialist": [
+        "Dr. Parthiv Sanghvi speciality",
+        "what surgeries does Dr. Parthiv Sanghvi specialize in",
+        "Dr. Parthiv Sanghvi expertise"
+    ],
+    "jagrutiTypeOfDoctor": [
+        "Dr. Jagruti Sanghvi type of doctor",
+        "what kind of doctor is Dr. Jagruti Sanghvi",
+        "Dr. Jagruti Sanghvi speciality",
+        "what is Dr. Jagruti Sanghvi's expertise"
+    ],
+    "aboutJagruti": [
+        "about Dr. Jagruti Sanghvi",
+        "information about Dr. Jagruti Sanghvi",
+        "tell me about Dr. Jagruti Sanghvi",
+        "Dr. Jagruti Sanghvi details"
+    ],
+    "jagrutiHospitalsAttached": [
+        "Dr. Jagruti Sanghvi hospitals attached",
+        "where does Dr. Jagruti Sanghvi practice",
+        "which hospitals is Dr. Jagruti Sanghvi attached to"
+    ],
+    "jagrutiPhoneNumber": [
+        "Dr. Jagruti Sanghvi phone number",
+        "contact Dr. Jagruti Sanghvi",
+        "how to contact Dr. Jagruti Sanghvi"
+    ],
+    "jagrutiEmailID": [
+        "Dr. Jagruti Sanghvi email id",
+        "Dr. Jagruti Sanghvi email",
+        "email Dr. Jagruti Sanghvi"
+    ],
+    "jagrutiContact": [
+        "contact Dr. Jagruti Sanghvi",
+        "Dr. Jagruti Sanghvi contact"
+    ],
+    "jagrutiSpecialist": [
+        "Dr. Jagruti Sanghvi speciality",
+        "what does Dr. Jagruti Sanghvi specialize in",
+        "Dr. Jagruti Sanghvi expertise",
+        "what treatments does Dr. Jagruti Sanghvi offer"
+    ]
+}
